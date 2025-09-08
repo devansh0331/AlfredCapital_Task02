@@ -35,31 +35,39 @@ Arbitrage means **buying a token cheaply on one exchange and selling it for a hi
 - **Tokens**: WETH, USDC (extendable)  
 - **Language**: Rust  
 - **Libraries**: `ethers-rs`, `tokio`, `dotenv`  
+ ---
+
+## Setup Instructions
+
+### 1. Prerequisites
+- [Rust](https://www.rust-lang.org/tools/install) (latest stable)
+- [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) (comes with Rust)
+- Polygon RPC endpoint (e.g., [https://polygon-rpc.com](https://polygon-rpc.com))
+- Git
 
 ---
 
-## Configuration
-All configuration is done via `.env`:
+### 2. Clone Repository
+```bash
+git clone https://github.com/devansh0331/AlfredCapital_Task02.git
+cd AlfredCapital_Task02
+```
+---
 
-```env
-# Polygon RPC URL
-RPC_URL=https://polygon-rpc.com
-
-# DEX Routers
-QUICKSWAP_ROUTER=0xa5E0829CaCED8fFDD4De3c43696c57F7D7A678ff
-SUSHISWAP_ROUTER=0x1b02da8cb0d097eb8d57a175b88c7d8b47997506
-
-# Tokens
-WETH_ADDRESS=0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619
-USDC_ADDRESS=0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174
-
-# Trade Settings
-TRADE_AMOUNT_WETH=1.0
-MIN_PROFIT_USD=5.0
-SIMULATED_GAS_COST_USD=2.0
+### Build Project
+```bash
+cargo build
 ```
 
 ---
+
+### Run
+```bash
+cargo run
+```
+
+---
+
 
 ## Logic Flow
 ```
