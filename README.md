@@ -45,21 +45,20 @@ Arbitrage means **buying a token cheaply on one exchange and selling it for a hi
 
 - Git
 
----
+
 
 ### 2. Clone Repository
 ```bash
 git clone https://github.com/devansh0331/AlfredCapital_Task02.git
 cd AlfredCapital_Task02
 ```
----
+
 
 ### 3. Build Project
 ```bash
 cargo build
 ```
 
----
 
 ### 4. Run
 ```bash
