@@ -29,7 +29,7 @@ Arbitrage means **buying a token cheaply on one exchange and selling it for a hi
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 - **Blockchain**: Polygon Network  
 - **DEXes**: QuickSwap, SushiSwap (Uniswap V2-style)  
 - **Tokens**: WETH, USDC (extendable)  
@@ -42,7 +42,7 @@ Arbitrage means **buying a token cheaply on one exchange and selling it for a hi
 ### 1. Prerequisites
 - [Rust](https://www.rust-lang.org/tools/install) (latest stable)
 - [Cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html) (comes with Rust)
-- Polygon RPC endpoint (e.g., [https://polygon-rpc.com](https://polygon-rpc.com))
+
 - Git
 
 ---
@@ -54,14 +54,14 @@ cd AlfredCapital_Task02
 ```
 ---
 
-### Build Project
+### 3. Build Project
 ```bash
 cargo build
 ```
 
 ---
 
-### Run
+### 4. Run
 ```bash
 cargo run
 ```
